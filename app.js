@@ -22,7 +22,7 @@ next();
 
 
 app.use((context, next) => {
-    context.response.body = "Hello world is burning!";
+    context.response.body = "Hello world IS burning!";
 });
 
 export {app};
