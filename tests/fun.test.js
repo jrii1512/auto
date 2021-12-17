@@ -4,5 +4,5 @@ import { laskuri } from "../fun.js";
 
 Deno.test("Laskuri laskee oikein", () => {
   const tulos = laskuri(1, 3);
-  assertEquals(tulos, 3);
+  assertEquals(tulos, 4);
 });
