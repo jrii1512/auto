@@ -4,5 +4,5 @@ import { laskeTulo } from "../sec.js";
 
 Deno.test("Laske tulo", () => {
     const tulo = laskeTulo(3,3);
-    assertEquals(tulo, 9);
+    assertEquals(tulo, 10);
 });
