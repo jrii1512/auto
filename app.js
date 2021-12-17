@@ -18,7 +18,7 @@ fetch("deno-simple-monitoring.herokuapp.com/api/entries",{
     body : JSON.stringify(data) 
 });
 next();
-};
+});
 
 
 app.use((context, next) => {
