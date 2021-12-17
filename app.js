@@ -10,7 +10,7 @@ data: {
 },
 };
 
-fetch("deno-simple-monitoring.herokuapp.com/api/entries",{
+fetch("https://deno-simple-monitoring.herokuapp.com/api/entries",{
     method: "POST",
     headers:{
     "Content-Type":"application/json",
