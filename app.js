@@ -13,7 +13,7 @@ data: {
 fetch("deno-simple-monitoring.herokuapp.com/api/entries",{
     method: "POST",
     headers:{
-    "Cotent-Type":"application/json",
+    "Content-Type":"application/json",
     },
     body : JSON.stringify(data) 
 });
